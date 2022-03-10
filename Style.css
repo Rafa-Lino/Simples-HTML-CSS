@@ -1,0 +1,103 @@
+/* Inicio da formatação do bloco lateral */
+
+aside {
+    background-image: url("Capas/vinho.jpg");
+    background-size: cover;
+    width: 30%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+}
+
+.branco {
+    background-image: url("Capas/fundo.jpg");
+    color:maroon;
+}
+.branco:hover {
+    color: indianred;
+}
+
+ul {
+    list-style-image: url("Capas/check.png");
+    color: lightgray;
+    font-size: 10pt;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: left;
+
+}
+
+/* eu deixei a tag li toda em hover porquê achei que ficou mais bonito no site, por isso não usei a span */
+li:hover {
+    background-color: crimson;
+    color: lightpink;
+    border-color: lightpink;
+}
+
+span {
+    color: gold ;
+    text-decoration: underline;
+}
+
+
+/* Fim da formatação do bloco lateral*/
+
+
+/* Inicio da formatação do bloco principal (centro) */
+
+body {
+    text-align: center;
+    font-family: Tahoma;
+    background-color: darkred;
+}
+
+main { 
+    background-color: maroon;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    width: 70%;
+}
+
+#titulo {
+    text-transform: uppercase;
+    font-style: italic;
+    color: whitesmoke;
+    border: 2px dotted mistyrose;
+}
+
+#titulo:hover {
+    background-color: crimson;
+    color: lightpink;
+    border-color: lightpink;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    border: 3px dashed indianred;
+}
+
+.fundo {
+    background-image: url("capas/vermelho.jpg");
+    color: whitesmoke;
+    
+}
+
+.fundo:hover {
+    color: indianred;
+}
+
+img:hover {
+    transform: rotate(-5deg);
+    border: 5px double gold;
+}
+
+/* Fim da formatação do bloco principal (centro) */
+
+
+
